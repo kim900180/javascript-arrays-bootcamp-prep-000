@@ -1,3 +1,4 @@
 function addElementToBeginningOfArray(a, b) {
-  return a.unshift(b)
+  var c = a
+  return c.unshift(b)
 }
