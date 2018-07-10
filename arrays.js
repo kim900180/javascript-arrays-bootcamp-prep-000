@@ -30,6 +30,5 @@ function removeElementFromBeginningOfArray(a) {
 }
 
 function removeElementFromEndOfArray(a) {
-  var c = [a]
-  return c.pop()
+  return a.slice(0, a.length - 1)
 }
