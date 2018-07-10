@@ -7,11 +7,11 @@ function destructivelyAddElementToBeginningOfArray(a, b) {
   return a.unshift(b)
 }
 
-function addElementToEndofArray(a, b) {
+function addElementToEndOfArray(a, b) {
   var c = [a]
   return c.push(b)
 }
 
-function destructivelyAddElementToEndofArray(a,b) {
+function destructivelyAddElementToEndoOArray(a,b) {
   return a.push(b)
 }
